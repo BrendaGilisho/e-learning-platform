@@ -1,0 +1,240 @@
+
+
+.outdoor-container{
+    /* outline: 2px solid yellow; */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+    /* width: 100%; */
+
+    display: flex;
+}
+
+
+.categories{
+    /* outline: 2px solid red; */
+    margin-bottom: 1%;
+
+    /* width: 15%; */
+}
+
+.category-menu{
+    /* display: grid; */
+    /* outline: 2px solid black; */
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+
+    width: 150%;
+
+    /* padding-right: 20%; */
+
+
+}
+
+.shop-by-category{
+    display: grid;
+    margin-bottom: 10%;
+}
+.shop-by-category-title{
+    margin-bottom: 5%;
+}
+.patio{
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+.gardening-lawn{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}.grills-cooking{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}.outdoor-storage{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}.umbrellas-shade{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}.cushion-covers{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}.entertainment{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}.beach-pool{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}
+
+/* ////////////// */
+
+.shop-by-brand{
+    display: grid;
+    margin-bottom: 10%;
+
+}
+.shop-by-brand-title{
+    margin-bottom: 5%;
+}
+.hn-outdoor{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}
+.woodard{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}
+.design-toscano{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}
+.best-selling-home{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}
+
+
+/* ////////////// */
+
+.shop-outdoor-by{
+    display: grid;
+    margin-bottom: 10%;
+
+}
+.shop-outdoor-by-title{
+    margin-bottom: 5%;
+}
+.new-product{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}
+.top-selling{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}
+.quick-shipping{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}
+
+/* ////////////// */
+
+.shop-by-collection{
+    display: grid;
+    margin-bottom: 10%;
+
+}
+.shop-by-collection-title{
+    margin-bottom: 5%;
+}
+.patio-collection{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}
+.garden-collection{
+    margin-bottom: 5%;
+    text-decoration: none;
+
+}
+
+/* //////// photos section ////////////////////////////////////////////// */
+
+.outdoor-living{
+    /* outline: violet 2px solid; */
+    width: 100%;
+
+    margin-left: 15%;
+}
+
+.outdoor-sample-pictures{
+    display: grid;
+}
+.outdoor-pics-row1{
+    /* outline: 2px solid black; */
+    display: flex;
+
+    border-bottom: solid 1px rgb(197, 196, 196);
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+
+
+    /* width: 100%; */
+}
+
+.row1-pic1{
+    /* border-right: solid 1px rgb(197, 196, 196); */
+}
+.row1-pic2{
+    /* border-right: solid 1px rgb(197, 196, 196); */
+    /* height: 100%; */
+    width: 102%;
+}
+.row1-pic3{
+    /* border-right: solid 1px rgb(197, 196, 196); */
+
+    height: 120%;
+    width: 200%;
+
+}
+.row1-pic4{
+    /* border-right: solid 2px black; */
+}
+
+.patio-sets{
+    /* width: 100%; */
+    margin-right: 2%;
+
+    margin-left: 2%;
+}
+
+.hanging-chair{
+    width: 100%;
+
+}
+
+.patio-set-name{
+    text-align: center;
+
+}
+
+
+
+.outdoor-pics-row2{
+    /* outline: 2px solid black; */
+    display: flex;
+
+    border-bottom: solid 1px rgb(197, 196, 196);
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+
+    /* width: 100%; */
+}
+
+.outdoor-pics-row3{
+    /* outline: 2px solid black; */
+    display: flex;
+
+    /* border-bottom: solid 1px rgb(197, 196, 196);
+    padding-bottom: 5%;
+    margin-bottom: 5%; */
+
+    /* width: 100%; */
+}

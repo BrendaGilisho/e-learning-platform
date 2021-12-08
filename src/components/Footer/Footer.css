@@ -1,0 +1,128 @@
+.footer{
+    /* outline: 2px solid red; */
+    background-color: rgb(238, 230, 230);
+    border-top: 2px solid gainsboro;
+}
+
+.footer-components{
+    /* outline: 2px solid yellow; */
+    display: grid;
+
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.footer-upper-container{
+    display: flex;
+
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+
+   
+}
+
+.footer-logo{
+    /* outline: 2px solid black; */
+    font-size: large;
+
+}
+.logo-foo {
+    background-image: linear-gradient(40deg, red, blue);
+    background-clip: text;
+    color: transparent;
+}
+
+h1 {
+    text-align: center;
+}
+
+.policies{
+    /* outline: 2px solid black; */
+    padding-top: 2%;
+
+
+}
+
+.privacy{
+    margin-bottom: 8%;
+}
+
+.faqs{
+    margin-bottom: 8%;
+}
+
+.use-terms{
+    margin-bottom: 8%;
+}
+
+.request-info{
+    margin-bottom: 8%;
+}
+
+.contact-help{
+    /* outline: 2px solid black; */
+    padding-top: 2%;
+
+}
+
+.contact{
+    margin-bottom: 8%;
+}
+.help-center{
+    margin-bottom: 8%;
+}
+.track-order{
+    margin-bottom: 8%;
+}
+.return{
+    margin-bottom: 8%;
+}
+.cancellation{
+    margin-bottom: 8%;
+}
+
+.customer-service{
+    /* outline: 2px solid black; */
+    padding-top: 2%;
+
+
+}
+.customer-s{
+    margin-bottom: 8%;
+}
+.open{
+    margin-bottom: 8%;
+}
+
+.socials{
+    /* outline: 2px solid black; */
+
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    
+}
+
+.divider{
+    border-bottom: 2px solid gainsboro;
+    margin-bottom: 2%;
+
+}
+
+.rights{
+    /* outline: 2px solid rgb(36, 35, 35); */
+
+    text-align: center;
+    color: white;
+    background-color: rgb(73, 71, 71);
+
+    padding-top: 0.3%;
+    padding-bottom: 0.5%;
+
+}

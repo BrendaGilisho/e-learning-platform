@@ -1,0 +1,113 @@
+.hero-container{
+    margin: 0;
+    /* margin-top: -20px; */
+
+}
+
+.hero-section{
+    /* outline: 2px solid black; */
+    /* display: flex;
+    justify-content: space-evenly; */
+    margin-left: 0;
+    display: flex;
+}
+
+.hero-welcome{
+    /* outline: black 2px solid; */
+    margin-right: 5%;
+    margin-left: 10%;
+
+    padding-top: 20%;
+    padding-bottom: 10%;
+    /* margin-top: 20%; */
+}
+
+
+/* .welcome{
+    font-size: 5.5vh;
+    color: rgb(1, 5, 15);
+
+} */
+
+.typewriter h1 {
+    /* outline: 2px solid red; */
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15% solid rgb(56, 67, 218); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end ; /*infinite */
+
+      margin-bottom: 5%;
+
+      text-shadow: 
+        0.025em 0.025em 0 blue,
+        0.05em 0.05em 0 blue,
+        0.075em 0.075em 0 red,
+        0.1em 0.1em 0 black
+        ;
+
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 26, 255); }
+  }
+
+
+
+
+.p{
+    font-size: 3vh;
+    color: grey;
+    margin-bottom: 6%;
+
+}
+
+.courses-btn {
+   display: flex;
+   justify-content: center;
+
+   
+
+}
+
+.courses-btn .btn{
+    background-color: midnightblue;
+    font-size: 3vh;
+    border-radius: 1rem;
+
+    padding: 2%;
+
+    padding-right: 7%;
+    padding-left: 7%;
+
+    background-image: 
+    linear-gradient(90deg, red, blue);
+
+    color: whitesmoke;
+
+}
+
+.hero-img{
+    margin-top: 4%;
+    margin-bottom: 2%;
+
+
+}
+
+.heroImg{
+    /* outline: 2px solid red; */
+    width: 100%;
+    margin-right: 10%;
+
+}
