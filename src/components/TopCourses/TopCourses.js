@@ -66,7 +66,7 @@ export default function TopCourses() {
                             <div className='js-description'>
                                 <div className='skew-bg'>
                                     <div className='description-js'>
-                                        <h3>Python for Beginners</h3>
+                                        <h3>Python for Data Science</h3>
 
                                     </div>
                                     <div className='js-stars'>
@@ -91,7 +91,7 @@ export default function TopCourses() {
                             <div className='js-description'>
                                 <div className='skew-bg'>
                                     <div className='description-js'>
-                                        <h3>Python for Beginners</h3>
+                                        <h3>JavaScript</h3>
 
                                     </div>
                                     <div className='js-stars'>
@@ -118,7 +118,7 @@ export default function TopCourses() {
                             <div className='js-description'>
                                 <div className='skew-bg'>
                                     <div className='description-js'>
-                                        <h3>Python for Beginners</h3>
+                                        <h3>Java</h3>
 
                                     </div>
                                     <div className='js-stars'>
@@ -144,7 +144,7 @@ export default function TopCourses() {
                             <div className='js-description'>
                                 <div className='skew-bg'>
                                     <div className='description-js'>
-                                        <h3>Python for Beginners</h3>
+                                        <h3>C#</h3>
 
                                     </div>
                                     <div className='js-stars'>
@@ -170,7 +170,7 @@ export default function TopCourses() {
                             <div className='js-description'>
                                 <div className='skew-bg'>
                                     <div className='description-js'>
-                                        <h3>Python for Beginners</h3>
+                                        <h3>Advanced CSS</h3>
 
                                     </div>
                                     <div className='js-stars'>

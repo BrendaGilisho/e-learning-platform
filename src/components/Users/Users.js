@@ -29,7 +29,7 @@ export default function Users() {
 
             </div>
 
-            <div className='hero-section'>
+            {/* <div className='hero-section'>
 
                 <div className='hero-img'>
                     <img className='tutorImg' src={Tutor} />
@@ -47,7 +47,7 @@ export default function Users() {
 
 
 
-            </div>
+            </div> */}
 
         </div>
     );

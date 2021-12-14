@@ -44,18 +44,19 @@ export default function ChatRoom() {
                 </main>
                 <div className="chat-form-container">
                     <form id="chat-form">
-                        <input
-                            id="msg"
-                            type="text"
-                            placeholder="Enter Message"
-                            required
-                            autocomplete="off"
-                        />
-                        <button className="btn"><i className="fas fa-paper-plane"></i> Send</button>
+                    {/* <input id="txtName" class ="form-control" placeholder="Name" type ="text"/> */}
+                    <input
+                    id="msg"
+                    type ="text"
+                    placeholder="Enter Message"
+                    required
+                    autocomplete="off"
+                    />
+                    <button className="btn"><i className="fas fa-paper-plane"></i> Send</button>
                     </form>
+                    </div>
                 </div>
-            </div>
 
-        </div>
-    );
+            </div>
+            );
 }

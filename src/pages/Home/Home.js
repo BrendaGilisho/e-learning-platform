@@ -5,6 +5,7 @@ import Hero from "../../components/HeroSection/HeroSection";
 import TopCourses from "../../components/TopCourses/TopCourses";
 import Frameworks from "../../components/Frameworks/Frameworks";
 import Users from "../../components/Users/Users";
+import BecomeStudent from "../../components/BecomeStudent/BecomeStudent";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
             < TopCourses />
             < Frameworks />
             < Users />
+            < BecomeStudent />
 
         </div>
     );

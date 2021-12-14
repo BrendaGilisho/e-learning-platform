@@ -1,8 +1,8 @@
 import React from "react";
 import './Navbar.css'
 import { NavLink, Link } from 'react-router-dom';
-import { FaSearch } from 'react-icons/fa'
-
+// import { FaSearch } from 'react-icons/fa'
+import Logo1 from '../../assets/images/logo2.png'
 
 export default function Navbar() {
     return (
@@ -11,7 +11,7 @@ export default function Navbar() {
 
                 <div className='navbar-menu'>
                     <NavLink to="/" className='home-nav'>
-                        LOGO
+                        <img className='logo' src={Logo1} />
                     </NavLink>
 
                     {/* <form action='/' method='get' > */}
@@ -19,9 +19,9 @@ export default function Navbar() {
                         <input className='search-bar'
                             type='text'
                             id='header-search'
-                            placeholder='Search for anything'
+                            placeholder='Search for courses'
                         />
-                        <button type='submit' className='search-btn'> <FaSearch /> </button>
+                        {/* <button type='submit' className='search-btn'> <FaSearch /> </button> */}
 
                     </div>
                     {/* </form> */}
@@ -38,13 +38,14 @@ export default function Navbar() {
                         Contact us
                     </Link>
 
-                    <Link to="/Sign-up" className='home-nav'>
-                        Sign up
-                    </Link>
-
-                    <NavLink to="/Login" className='home-nav'>
-                        Login
-                    </NavLink>
+                    <div className="dropdown">
+                        <button className="dropbtn">Sign up/In</button>
+                        <div className="dropdown-content">
+                            <Link to="/Sign-up">SignUp </Link>
+                            <Link to="/Login">Login</Link>
+                        </div>
+                    </div>
+                    
 
                 </div>
 

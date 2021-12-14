@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import './Login.css'
+
 import axios from 'axios';
 
 import { NavLink } from "react-router-dom";
@@ -37,20 +39,17 @@ export default function SignUp() {
 
     return (
         <div>
-            <div>---- Login -----</div>
+            {/* <div>---- Login -----</div> */}
 
             <div className='form-page'>
 
 
                 <div className='form-container'>
-                    <div className='form-left-side-pic'>
-                        <img className="form-pic1" alt='form-pic1' src={FormPic} />
-
-                    </div>
+       
 
                     <form onSubmit={loginSubmit}
                         className='main-form'>
-                        <h3>Sign Up</h3>
+                        <h3 className='login-title'>Log In</h3>
 
                         <div className='form-group'>
 
@@ -82,10 +81,10 @@ export default function SignUp() {
                         </button>
 
 
-                        <p className="forgot-password text-right">
+                        <p className="forgot-password">
                             Already registered
                             <NavLink to="/sign-up" >
-                                Sign up?
+                            <button className="or-login"> Sign up? </button>
                             </NavLink>
                         </p>
                     </form>
