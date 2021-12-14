@@ -5,6 +5,9 @@ import { FaFacebook } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaPinterest } from 'react-icons/fa';
 
+import Logo1 from '../../assets/images/logo2.png'
+
+
 export default function Footer() {
     return (
         <div className='footer'>
@@ -12,7 +15,8 @@ export default function Footer() {
                 <div className='footer-upper-container'>
                     <div className='footer-logo'>
                         <div className='logo-foo'>
-                            <h1>LOGO</h1>
+                            <img className='logo' src={Logo1} />
+
                         </div>
                     </div>
 

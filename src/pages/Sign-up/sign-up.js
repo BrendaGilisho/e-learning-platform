@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import './Sign-up.css'
-import axios from 'axios';
+import axios, { Axios } from 'axios';
+
+// import { Image } from "cloudinary-react"
 
 import { NavLink } from "react-router-dom";
 
 import FormPic from '../../assets/images/form1.jpg'
+import BgImg from '../../assets/images/bg.jpg'
 
 export default function SignUp() {
 
@@ -12,6 +15,19 @@ export default function SignUp() {
     const [lastNameValue, setLastName] = useState('')
     const [emailValue, setEmail] = useState('')
     const [passwordValue, setPassword] = useState('')
+
+    const [imageSelected, setImageSelected] = useState('')
+
+    const uploadImage = () => {
+        const formData = new formData();
+        formData.append("file", imageSelected);
+        ImageData.append("upload_preset", "pnvaylnb");
+
+        Axios.post("https://api.cloudinary.com/v1_1/joan-gilisho/image/upload", formData)
+            .then((response) => {
+                console.log(response)
+            });
+    };
 
     const formSubmit = (event) => {
         // event.preventDefault();
@@ -35,27 +51,37 @@ export default function SignUp() {
 
         // window.location = '/home'
 
-        
 
     }
 
 
     return (
-        <div>
-            <div>---- Sign up -----</div>
-           
-            <div className='form-page'>
+        <div>        
+            {/* <div>---- Sign up -----</div> */}
+
+
+            <div className='form-page'
+               style={{
+                // backgroundImage: 'url('+BgImg+')',
+                // backgroundRepeat: "no-repeat",
+                // backgroundSize: "cover",
+                // height: "100%",
+                // width: "100%",
+                // opacity: "20%"
+                // color: "#f5f5f5"
+              }}
+               >
 
 
                 <div className='form-container'>
-                    <div className='form-left-side-pic'>
+                    {/* <div className='form-left-side-pic'>
                         <img className="form-pic1" alt='form-pic1' src={FormPic} />
 
-                    </div>
+                    </div> */}
 
                     <form onSubmit={formSubmit}
                         className='main-form'>
-                        <h3>Sign Up</h3>
+                        <h3 className='sign-up-title'>Sign Up</h3>
 
                         <div className='form-group'>
                             <div className="firstname">
@@ -97,6 +123,14 @@ export default function SignUp() {
                                     onChange={(e) => setPassword(e.target.value)}
                                 />
                             </div>
+                            {/* <div>
+                                <input
+                                    type='file'
+                                    onChange={(e) => setImageSelected(e.target.files[0])}
+                                />
+                                <button onClick={uploadImage}>Upload Image</button>
+
+                            </div> */}
                         </div>
 
                         <button type="submit"
@@ -106,13 +140,20 @@ export default function SignUp() {
                         </button>
 
 
-                        <p className="forgot-password text-right">
+                        <p className="forgot-password">
                             Already registered
                             <NavLink to="/login">
-                                Sign in?
+                               <button className="or-login"> Sign in? </button>
                             </NavLink>
                         </p>
+                        {/* <Image
+                            style={{ width: 100 }}
+                            cloudName="joan-gilisho"
+                            publicId="https://res.cloudinary.com/joan-gilisho/image/upload/v1639419711/leer/van_legs_man_159350_1366x768_oyblgu.jpg" /> */}
+
                     </form>
+
+
                 </div>
 
             </div>

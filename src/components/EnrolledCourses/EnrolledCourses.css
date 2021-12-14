@@ -1,0 +1,26 @@
+.enrolled-courses{
+    outline: 2px solid red;
+}
+
+
+
+.wrapper {
+    border: 1px solid blue;
+    border-radius: 50;
+
+    width: 300px;
+  }
+  
+  .container {
+    /* background-color: pink; */
+  }
+  
+  .barCompleted {
+    background-color: rgb(72, 115, 129);
+    width: 80%;
+  }
+  
+  .label {
+    font-size: 20px;
+    color: rgb(13, 99, 13);
+  }
