@@ -8,7 +8,7 @@ import { RiHomeLine, RiFileCopyLine } from "react-icons/ri";
 import { FaWallet, FaCalendar, FaClock } from "react-icons/fa";
 import { AiOutlinePieChart } from "react-icons/ai";
 
-import AvatarImage from '../../assets/images/bree.jpeg'
+import AvatarImage from '../../assets/images/person1.jpg'
 
 export default function Dashboard() {
     return (
@@ -18,7 +18,7 @@ export default function Dashboard() {
                 <div className='dash-side-bar'>
                     <div className='ProfileContainer'>
                         <img className='Avatar' src={AvatarImage} />
-                        <p className='Name'>Gilisho Brenda</p>
+                        <p className='Name'>Amelia Lekish</p>
                         <Link to='/Course'>
                             <p className='Account'>Account</p>
                         </Link>
