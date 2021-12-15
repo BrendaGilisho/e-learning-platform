@@ -1,0 +1,35 @@
+.users-container{
+    background-color: rgb(17, 1, 17);
+
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.instructor-welcome{
+    /* margin-right: 0%; */
+    margin-left: 20%;
+
+    padding-top: 8%;
+    padding-bottom: 5%;
+
+}
+
+.welcome-inst{
+    color: white;
+    font-weight: bold;
+}
+.student-img{
+    margin-left: 10% ;
+}
+.InstructorImg{
+    width: 100%;
+    border-radius: 50%;
+
+
+
+}
+
+
+
+
+

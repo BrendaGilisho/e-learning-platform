@@ -15,6 +15,8 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 import JoinRoom from './pages/JoinRoom/JoinRoom'
 import ChatRoom from "./pages/ChatRoom/ChatRoom";
 import EnrolledCourses from "./components/EnrolledCourses/EnrolledCourses"
+import ContactUs from "./pages/ContactUs/ContactUs";
+
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
           <Route path='ChatRoom' element={<ChatRoom/>} />
 
           <Route path='EnrolledCourses' element={<EnrolledCourses/>} />
+          <Route path='ContactUs' element={<ContactUs/>} />
+
 
 
 

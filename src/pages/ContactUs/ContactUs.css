@@ -1,0 +1,74 @@
+
+.contact-group{
+    font-family: "Helvetica", serif;
+    /* background-color: whitesmoke; */
+  
+    width: 100%;
+  
+    padding-left: 10%;
+    padding-right: 10%;
+  
+    margin-bottom: 2%;
+    margin-top: 5%;
+  
+    /* border-bottom: 2px solid #767474; */
+}
+
+.contact-title{
+    text-align: center;
+    margin-top: 5%;
+
+    font-weight: bold;
+}
+
+.get-back{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+
+.region{
+    margin-bottom: 8%;
+
+}
+
+.region-choice{
+    width: 84.7%;
+    margin-left: 3%;
+    background-color: whitesmoke;
+
+    border-style: hidden;
+    outline: none;
+    border-bottom: 1px solid #767474;
+    border-width: 100%;
+
+}
+.message-area{
+    margin-bottom: 13%;
+
+    width: 100%;
+    height: 200px;
+
+}
+
+.btn-contact{
+    display: flex;
+  justify-content: center;
+  background-color: rgb(2, 46, 9);
+  font-size: 1.5vh;
+  border-radius: 1rem;
+
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 12%;
+
+  padding: 2%;
+
+  /* padding-right: 1%;
+  padding-left: 3%; */
+
+  /* background-image: linear-gradient(90deg, red, blue); */
+
+  color: whitesmoke;
+}
