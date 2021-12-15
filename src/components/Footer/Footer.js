@@ -31,15 +31,16 @@ export default function Footer() {
                     <div className='contact-help'>
                         <div className='contact'>Contact Us</div>
                         <div className='help-center'>Help Center</div>
-                        <div className='track-order'>Track Your Order</div>
-                        <div className='return'>Start a Return</div>
-                        <div className='cancellation'>Start a Cancellation</div>
+                        <div className='track-order'>Choose A Course</div>
+                        <div className='return'>Common Room</div>
+                        {/* <div className='cancellation'>Start a Cancellation</div> */}
 
 
                     </div>
 
                     <div className='customer-service'>
                         <div className='customer-s'>Customer Service</div>
+                        <div className='customer-s'>Contact us</div>
                         <div children='open-days'>Open: Mon - Fri 8am - 8pm GMT</div>
 
 
@@ -55,7 +56,7 @@ export default function Footer() {
             </div>
             <div className='divider'></div>
             <div className='rights'>
-                <p>Copyright 2021, Decor. All rights reserved.</p>
+                <p>@2021. All rights reserved.</p>
             </div>
         </div>
     );

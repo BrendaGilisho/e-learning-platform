@@ -1,11 +1,15 @@
 .enrolled-courses{
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
+
+    margin-left: 5%;
 }
 
-
+.course1{
+  margin-top: 10%;
+}
 
 .wrapper {
-    border: 1px solid blue;
+    border: 1px solid rgb(0, 0, 8);
     border-radius: 50;
 
     width: 300px;
@@ -16,11 +20,11 @@
   }
   
   .barCompleted {
-    background-color: rgb(72, 115, 129);
-    width: 80%;
+    background-color: rgb(72, 129, 75);
+    width: 60%;
   }
   
   .label {
     font-size: 20px;
-    color: rgb(13, 99, 13);
+    color: rgb(1, 10, 29);
   }
