@@ -30,11 +30,11 @@ export default function Navbar() {
                         Courses
                     </Link>
 
-                    <Link to="/JoinRoom" className='home-nav'>
+                    <Link to="/ChatRoom" className='home-nav'>
                         Common Room
                     </Link>
 
-                    <Link to="/AllCourses" className='home-nav'>
+                    <Link to="/ContactUs" className='home-nav'>
                         Contact us
                     </Link>
 

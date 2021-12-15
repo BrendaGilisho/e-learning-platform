@@ -4,7 +4,7 @@ import React from "react";
 import Hero from "../../components/HeroSection/HeroSection";
 import TopCourses from "../../components/TopCourses/TopCourses";
 import Frameworks from "../../components/Frameworks/Frameworks";
-import Users from "../../components/Users/Users";
+import BecomeInstructor from "../../components/BecomeInstructor/BecomeInstructor";
 import BecomeStudent from "../../components/BecomeStudent/BecomeStudent";
 
 
@@ -16,8 +16,9 @@ export default function Home() {
 
             < Hero />
             < TopCourses />
+            < BecomeInstructor />
+
             < Frameworks />
-            < Users />
             < BecomeStudent />
 
         </div>

@@ -5,6 +5,13 @@ import { Link, NavLink } from "react-router-dom";
 import Python from '../../assets/images/py1.jpg'
 import Java from '../../assets/images/java.png'
 import Go from '../../assets/images/go.png'
+import R from '../../assets/images/r.jpg'
+import CSS from '../../assets/images/css.jpg'
+import JS from '../../assets/images/js.png'
+import JQ from '../../assets/images/jquery.png'
+
+
+
 
 
 export default function AllCourses() {
@@ -149,7 +156,7 @@ export default function AllCourses() {
                                 <div className='row1-pic4'>
                                     <div className='patio-sets'>
                                         <NavLink to='/Course'>
-                                            <img className='hanging-chair' src={Python} />
+                                            <img className='hanging-chair' src={R} />
                                         </NavLink>
                                     </div>
                                     <div className='patio-set-name'>
@@ -168,12 +175,12 @@ export default function AllCourses() {
                                 <div className='row1-pic1'>
                                     <div className='patio-sets'>
                                         <NavLink to='/Course'>
-                                            <img className='hanging-chair' src={Python} />
+                                            <img className='hanging-chair' src={CSS} />
                                         </NavLink>
                                     </div>
                                     <div className='patio-set-name'>
                                         <NavLink to='/Course'>
-                                            HTML & CSS
+                                            Advanced CSS
                                         </NavLink>
                                     </div>
 
@@ -181,7 +188,7 @@ export default function AllCourses() {
                                 <div className='row1-pic2'>
                                     <div className='patio-sets'>
                                         <NavLink to='/Course'>
-                                            <img className='hanging-chair' src={Python} />
+                                            <img className='hanging-chair' src={JS} />
                                         </NavLink>
                                     </div>
                                     <div className='patio-set-name'>
@@ -195,7 +202,7 @@ export default function AllCourses() {
                                 <div className='row1-pic3'>
                                     <div className='patio-sets'>
                                         <NavLink to='/Course'>
-                                            <img className='hanging-chair' src={Python} />
+                                            <img className='hanging-chair' src={JQ} />
                                         </NavLink>
                                     </div>
                                     <div className='patio-set-name'>

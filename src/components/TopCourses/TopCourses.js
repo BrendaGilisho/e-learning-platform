@@ -11,6 +11,14 @@ import { FaStar } from "react-icons/fa";
 import Img1 from '../../assets/images/form1.jpg'
 import PythonImg from '../../assets/images/py1.jpg'
 import JSImg from '../../assets/images/js.jpg'
+import JS from '../../assets/images/js.jpeg'
+import Java from '../../assets/images/java.jpg'
+import CSharp from '../../assets/images/cSharp.png'
+import CSS from '../../assets/images/css.jpg'
+
+
+
+
 
 export default function TopCourses() {
 
@@ -44,7 +52,7 @@ export default function TopCourses() {
                                         <h3>Python for Beginners</h3>
 
                                     </div>
-                                    <div className='py-stars'>
+                                    <div className='js-stars'>
                                         < FaStar />
                                         < FaStar />
                                         < FaStar />
@@ -86,7 +94,7 @@ export default function TopCourses() {
                     <Link to='/course'>
                         <div className='js-course'>
                             <div className='js-img'>
-                                <img className='course2-img' src={JSImg} />
+                                <img className='course2-img' src={JS} />
                             </div>
                             <div className='js-description'>
                                 <div className='skew-bg'>
@@ -113,7 +121,7 @@ export default function TopCourses() {
                     <Link to='/course'>
                         <div className='js-course'>
                             <div className='js-img'>
-                                <img className='course2-img' src={JSImg} />
+                                <img className='course2-img' src={Java} />
                             </div>
                             <div className='js-description'>
                                 <div className='skew-bg'>
@@ -139,7 +147,7 @@ export default function TopCourses() {
                     <Link to='/course'>
                         <div className='js-course'>
                             <div className='js-img'>
-                                <img className='course2-img' src={JSImg} />
+                                <img className='course2-img' src={CSharp} />
                             </div>
                             <div className='js-description'>
                                 <div className='skew-bg'>
@@ -165,7 +173,7 @@ export default function TopCourses() {
                     <Link to='/course'>
                         <div className='js-course'>
                             <div className='js-img'>
-                                <img className='course2-img' src={JSImg} />
+                                <img className='course2-img' src={CSS} />
                             </div>
                             <div className='js-description'>
                                 <div className='skew-bg'>

@@ -41,7 +41,7 @@
 }
 
 .py-stars{
-    padding-left: 25%;
+    /* padding-left: 25%; */
     padding-top: 20%;
 
     color: rgb(12, 28, 78);
@@ -53,6 +53,7 @@
 .js-course{
     /* outline: 2px solid black; */
     width: 58%;
+    height: 100%;
     /* margin-right: 0; */
     display: inline-block;
 
@@ -60,7 +61,7 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
     margin-right: 2%;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     /* padding: 1%; */
 
 }
@@ -76,19 +77,20 @@
 
 .js-description{
     /* background: blue; */
-    /* width: 100%; */
+    width: 100%;
     text-align: center;
     height: 23vh;
 
-    padding-left: 10%;
+    /* padding-left: 10%; */
     padding-top: 10%;
 
 }
 
 .js-stars{
     /* padding-left: 25%; */
+    margin-left: 0;
     padding-top: 20%;
 
-    color: rgb(30, 35, 104);
+    color: rgb(245, 221, 11);
     /* gap: 10%; */
 }
