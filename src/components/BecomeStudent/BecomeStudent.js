@@ -44,7 +44,7 @@ export default function BecomeStudent() {
                 <div className='student-welcome'>
                     <h1 className='welcome-std'> Become a Student </h1>
                     <h4 className='p'>Join our community to learn new skills and apply them</h4>
-                    <Link className='courses-btn' to='/AllCourses'>
+                    <Link className='courses-btn' to='/course'>
                         <button className='btn'> Start Learning </button>
                     </Link>
 

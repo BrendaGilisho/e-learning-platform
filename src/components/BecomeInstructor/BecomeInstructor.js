@@ -16,7 +16,7 @@ export default function Users() {
                 <div className='instructor-welcome'>
                     <h1 className='welcome-inst'> Become an Instructor </h1>
                     <h4 className='p'>Join our team to pass knowledge to others</h4>
-                    <Link className='courses-btn' to='/AllCourses'>
+                    <Link className='courses-btn' to='/course'>
                         <button className='btn'> Apply to Join </button>
                     </Link>
 
