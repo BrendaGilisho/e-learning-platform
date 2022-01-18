@@ -13,7 +13,7 @@ export default function Home() {
         <div>
             {/* < Navbar /> */}
             {/* <h1>Home up and running ...</h1> */}
-
+           
             < Hero />
             < TopCourses />
             < BecomeInstructor />

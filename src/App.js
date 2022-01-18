@@ -7,7 +7,7 @@ import Home from './pages/Home/Home'
 import SignUp from './pages/Sign-up/sign-up'
 import LogIn from './pages/Login/Login'
 
-import AllCourses from "./pages/AllCourses/AllCourses";
+// import AllCourses from "./pages/AllCourses/AllCourses";
 import Course from "./pages/Course/Course";
 
 import Footer from "./components/Footer/Footer";
@@ -28,7 +28,7 @@ function App() {
           <Route path='/sign-up' element={<SignUp/>} />
           <Route path='/Login' element={<LogIn/>} />
 
-          <Route path='AllCourses' element={<AllCourses/>} />
+          {/* <Route path='AllCourses' element={<AllCourses/>} /> */}
           <Route path='Course' element={<Course/>} />
           <Route path='Dashboard' element={<Dashboard/>} />
 
