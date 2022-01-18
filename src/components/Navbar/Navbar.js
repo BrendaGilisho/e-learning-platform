@@ -26,8 +26,8 @@ export default function Navbar() {
                     </div>
                     {/* </form> */}
 
-                    <Link to="/AllCourses" className='home-nav'>
-                        Courses
+                    <Link to="/" className='home-nav'>
+                        Home
                     </Link>
 
                     <Link to="/ChatRoom" className='home-nav'>
