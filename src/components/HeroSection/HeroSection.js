@@ -18,7 +18,7 @@ export default function Hero() {
                     </div>
 
                     <h4 className='p'>Build skills, connect with others and get certified</h4>
-                    <Link className='courses-btn' to='/AllCourses'>
+                    <Link className='courses-btn' to='/course'>
                         <button className='btn'> Explore Courses </button>
                     </Link>
 
